@@ -1,28 +1,14 @@
 == README
+This is the third part of a three part series to replicate popular web applications; Wordpress blog, Pininterest, and Evernote.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Part Three: Evernote
+The main point to this project was to help build on the concepts and steps of the two previous web app replicas and to continue to ingrain steps/concepts. The same gems from the previous projects will be used this also was broken into several steps.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. Creating new Rails app and then controller for welcome page(index) with gems simple_form, haml, and devise
+2. Next Notes controller/model/routes/views and properly installing simple_form
+3. Adding more functions to notes controller and private functions
+4. Added more functions to notes contrller like destroy and edit
+5. Set up devise along with user and notes associations 
+6. Modified routes to user and notes 
+7. Styling and strucure to views and stylesheets
+8. Finally added styling for notes and devise views
